@@ -1,2 +1,2 @@
 # Document-Scanner
-A document scanner built in python with usage of the OpenCV library (a computer vision library). 
+A document scanner for 8.5 x 11 papers built in python with the OpenCV library (a computer vision library). 
