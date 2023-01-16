@@ -1,4 +1,4 @@
-# Document Scanner for 8.5x11 sized papers
+# Document Scanner for 8.5x11 sized papers 
 
 # Import dependencies
 import cv2
