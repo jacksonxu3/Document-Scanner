@@ -41,7 +41,7 @@ for i, cnt in enumerate(contours):
             cv2.circle(copy, tuple(pt), 20, (255, 255, 255), -1)
         poly = np.float32(poly)
         imshow(copy)
-        # Transform perspective 
+        # Transform perspective
         M = cv2.getPerspectiveTransform(poly, np.float32([[850, 0], [850, 1100], [0, 1100], [0,0]]))
         # Apply perspective transform
         dst = cv2.warpPerspective(img, M, (850, 1100))
